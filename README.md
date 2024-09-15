@@ -41,7 +41,7 @@ source haystack_env/bin/activate
 pip install -r requirements.txt
 ```
 make sure you have a openai and hf key at hand.
-```
+
 
 ### 4. Run one of the .py files
 ```
