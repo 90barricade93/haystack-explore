@@ -32,7 +32,7 @@ cd haystack-explore
 ```
 
 ### 3. Install the required dependencies in venv environment
-````sh
+```sh
 python -m venv haystack_env
 source haystack_env/bin/activate  
 ```
