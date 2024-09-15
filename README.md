@@ -23,15 +23,27 @@ see requirements.txt for more details
 
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/90barricade93/HAYSTACK-EXPLORE
+git clone https://github.com/90barricade93/haystack-explore
 ```
 
 ### 2. Navigate to the project directory
 ```sh
-cd HAYSTACK-EXPLORE
+cd haystack-explore
 ```
 
-### 3. Run one of the .py files
+### 3. Install the required dependencies in venv environment
+````sh
+python -m venv haystack_env
+source haystack_env/bin/activate  
+```
+
+```sh
+pip install -r requirements.txt
+```
+make sure you have a openai and hf key at hand.
+```
+
+### 4. Run one of the .py files
 ```
 make sure you have a openai and hf key at hand.
 ```
